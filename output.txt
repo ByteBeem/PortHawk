@@ -1,0 +1,5 @@
+[+] Port 53 is open - DNS - 
+[+] Port 88 is open - Unknown - 
+[+] Port 135 is open - Microsoft RPC - 
+[+] Port 139 is open - NetBIOS Session Service - 
+[+] Port 636 is open - LDAPS - 
