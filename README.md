@@ -31,3 +31,44 @@
    ```bash
    git clone https://github.com/bytebeem/PortHawk.git
    cd PortHawk
+2. Set up a virtual environment (recommended):
+  ```bash
+  python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+3. Install dependencies:
+  ```bash
+   pip install -r requirements.txt
+
+Usage 🚀
+Basic TCP Connect Scan
+Scan a target for open ports:
+   ``bash
+   python -m recon.cli example.com -p 1-1000 -s connect -t 200
+
+SYN Scan (Requires Root)
+Perform a stealthy SYN scan:
+   ```bash
+   sudo python -m recon.cli example.com -p 1-1000 -s syn -t 200
+
+Contributing 🤝
+Contributions are welcome! If you'd like to contribute to Port Hawk, please follow these steps:
+
+Fork the repository.
+
+Create a new branch for your feature or bugfix.
+
+Submit a pull request with a detailed description of your changes.
+
+License 📜
+Port Hawk is licensed under the MIT License. See the LICENSE file for details.
+
+Disclaimer ⚠️
+This tool is intended for educational and authorized testing purposes only. Do not use it for illegal or malicious activities. The developers are not responsible for any misuse of this tool.
+
+Support 💬
+If you have any questions, issues, or feature requests, please open an issue on the GitHub repository.
+
+Credits 🙏
+Developed by Bytebeem.
+
+Inspired by tools like Nmap and Masscan.
